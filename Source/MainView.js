@@ -22,15 +22,7 @@ MainView = class MainView extends AView
 		super.onInitDone()
 
         // 배경 색 설정
-        for (var i = 0; i < 8; i++) {
-            for (var j = 0; j < 8; j++) {
-                if (i % 2) {
-                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'white' : 'black';
-                } else {
-                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'black' : 'white';
-                }
-            }
-        }
+        this.boardColor();
 
         // 체스 말 생성
         // 화이트 폰
@@ -119,6 +111,19 @@ MainView = class MainView extends AView
 
 	}
 
+    // 배경 색 설정
+    boardColor() {
+        for (var i = 0; i < 8; i++) {
+            for (var j = 0; j < 8; j++) {
+                if (i % 2) {
+                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'white' : 'black';
+                } else {
+                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'black' : 'white';
+                }
+            }
+        }
+    }
+
     // 체스 말 생성 함수
     chessPiece(name) {
         var piece = name;
@@ -144,8 +149,6 @@ MainView = class MainView extends AView
         var thisObj = this;
         var nm = comp.getGroupName();
 
-        console.log(thisObj.board.getLayoutComp(1,0) === comp);
-
         // 선택된 아이템 컬럼 찾기...노가다...
         var tRow = 0;
         var tCol = 0;
@@ -161,6 +164,14 @@ MainView = class MainView extends AView
                 }
             }
         }
-        console.log(tRow, tCol);
+        console.log(tRow, tCol, nm);
+
+        // 선택된 아이템의 종류에 따라 이동 가능 범위 보여주기
+        switch (nm) {
+            case 'bP':
+                thisObj.boardColor();
+                thisObj.board.getCell(tRow - 1, tCol).style.backgroundColor = 'red';
+                break;
+        }
     }
 }
