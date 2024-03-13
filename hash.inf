@@ -1,6 +1,6 @@
 {
 	"changed": [
-		"C:\\Users\\cross_14\\Documents\\SpiderGenWorkspace\\chess\\bin\\Source\\MainView.js"
+		"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\bin\\Source\\MainView.js"
 	],
 	"version": "4.0.10",
 	"C:\\Program Files\\SpiderGen4\\resources\\app\\bin\\Runner\\SpiderServer\\..\\..\\Framework\\afc\\library\\jquery-core.js": 1709845860000,
@@ -185,5 +185,22 @@
 	"C:\\Users\\cross_14\\Documents\\SpiderGenWorkspace\\chess\\Resource\\common.json": 1710289652350.4326,
 	"C:\\Users\\cross_14\\Documents\\SpiderGenWorkspace\\chess\\Template\\chessApp_global.stl": 1710289652393.417,
 	"C:\\Users\\cross_14\\Documents\\SpiderGenWorkspace\\chess\\Source\\MainView.lay": 1710304613730.2375,
-	"concat": true
+	"concat": true,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bB-removebg-preview.png": 1710307143351.8843,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bK-removebg-preview.png": 1710307135065.1277,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bKn-removebg-preview.png": 1710307127687.4705,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bP-removebg-preview.png": 1710307119524.405,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bQ-removebg-preview.png": 1710307112664.0386,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\bR-removebg-preview.png": 1710307104974.28,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wB-removebg-preview.png": 1710307091276.0654,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wK-removebg-preview.png": 1710307074809.3997,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wKn-removebg-preview.png": 1710307054571.3174,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wP-removebg-preview.png": 1710307027200.2112,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wQ-removebg-preview.png": 1710307009376.869,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wR-removebg-preview.png": 1710306969981.4238,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\chessApp.js": 1710306307081.304,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\MainView.js": 1710313087107.281,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Resource\\common.json": 1710306307073.3066,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Template\\chessApp_global.stl": 1710306307084.2998,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\MainView.lay": 1710313048903.9712
 }

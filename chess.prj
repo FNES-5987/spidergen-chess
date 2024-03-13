@@ -49,7 +49,86 @@
       {
         "type": 1,
         "name": "Assets",
-        "children": []
+        "children": [
+          {
+            "type": 1,
+            "name": "chess_img",
+            "children": [
+              {
+                "type": 8,
+                "name": "bB-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "bK-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "bKn-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "bP-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "bQ-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "bR-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wB-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wK-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wKn-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wP-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wQ-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              },
+              {
+                "type": 8,
+                "name": "wR-removebg-preview.png",
+                "relType": 1,
+                "path": "chess_img\\"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": 1,
