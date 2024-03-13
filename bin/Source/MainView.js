@@ -23,13 +23,11 @@ MainView = class MainView extends AView
 
         // 배경 색 설정
         for (var i = 0; i < 8; i++) {
-            for (var j = 0; j < 8; j+=2) {
+            for (var j = 0; j < 8; j++) {
                 if (i % 2) {
-                    this.board.getCell(i, j).style.backgroundColor = 'black';
-                    this.board.getCell(i, j+1).style.backgroundColor = 'white';
+                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'white' : 'black';
                 } else {
-                    this.board.getCell(i, j).style.backgroundColor = 'white';
-                    this.board.getCell(i, j+1).style.backgroundColor = 'black';
+                    this.board.getCell(i, j).style.backgroundColor = j % 2 ? 'black' : 'white';
                 }
             }
         }
@@ -142,7 +140,27 @@ MainView = class MainView extends AView
 
     chessPieceClick(comp)
     {
+
+        var thisObj = this;
         var nm = comp.getGroupName();
-        console.log(comp)
+
+        console.log(thisObj.board.getLayoutComp(1,0) === comp);
+
+        // 선택된 아이템 컬럼 찾기...노가다...
+        var tRow = 0;
+        var tCol = 0;
+        for (var i = 0; i < 8; i++) {
+            for (var j = 0; j < 8; j++) {
+                var td = thisObj.board.getCell(i,j);
+                var div = td.querySelector('div');
+                if (div !==  null) {
+                    if (thisObj.board.getLayoutComp(i,j) === comp) {
+                        tRow = i;
+                        tCol = j;
+                    }
+                }
+            }
+        }
+        console.log(tRow, tCol);
     }
 }

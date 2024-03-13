@@ -1,7 +1,6 @@
 {
 	"changed": [
-		"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\bin\\Source\\MainView.js",
-		"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\bin\\Source\\MainView.html"
+		"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\bin\\Source\\MainView.js"
 	],
 	"version": "4.0.10",
 	"C:\\Program Files\\SpiderGen4\\resources\\app\\bin\\Runner\\SpiderServer\\..\\..\\Framework\\afc\\library\\jquery-core.js": 1709845860000,
@@ -200,7 +199,7 @@
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wQ-removebg-preview.png": 1710307009376.869,
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\chess_img\\wR-removebg-preview.png": 1710306969981.4238,
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\chessApp.js": 1710306307081.304,
-	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\MainView.js": 1710313101764.3718,
+	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\MainView.js": 1710316519720.6848,
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Resource\\common.json": 1710306307073.3066,
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Template\\chessApp_global.stl": 1710306307084.2998,
 	"C:\\Users\\cross_14\\Documents\\GitHub\\spidergen-chess\\Source\\MainView.lay": 1710313141062.8806
