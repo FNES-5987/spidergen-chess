@@ -22,8 +22,6 @@ MainView = class MainView extends AView
 		super.onInitDone()
 
         // 배경 색 설정
-        // this.board.getCell(0,0).style.backgroundColor = 'red';
-        console.log(this.board.getCell(1, 1));
         for (var i = 0; i < 8; i++) {
             for (var j = 0; j < 8; j+=2) {
                 if (i % 2) {
